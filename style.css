@@ -9,6 +9,17 @@
     background-size: cover;
    
 }
+
+
+body {
+    background: #0a0803;
+    font-family: 'Manrope',sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 800;
+    text-transform: uppercase; /*se faccio questo TUTTI I TITOLI DI TUTTO IL SITO SARANNO MAIUSCOLI*/
+}
    
 @media (min-width: 1025px) {
     .h-custom {
@@ -16,26 +27,14 @@
     }
     }
     
-    .card-registration .select-input.form-control[readonly]:not([disabled]) {
-    font-size: 1rem;
-    line-height: 2.15;
-    padding-left: .75em;
-    padding-right: .75em;
-    }
     
-    .card-registration .select-arrow {
-    top: 13px;
-    }
     
     .bg-grey {
     background-color: #080808;
     }
     
     @media (min-width: 992px) {
-    .card-registration-2 .bg-grey {
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
-    }
+     
     }
     
     @media (max-width: 991px) {
@@ -85,7 +84,6 @@
         text-decoration: none;
         display: inline-block;
         font-size: 10px;
-       
         border-radius: 15px;
       }
 
@@ -117,15 +115,6 @@
     
 }
 
-      /* .box1 {
-          color: antiquewhite;
-        align-items: flex-start;
-        
-     }
-     .box2 {
-        align-items:flex-end;
-         
-     } */
      .item {
         width: 20%;
     }
