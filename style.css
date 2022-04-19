@@ -1,0 +1,133 @@
+.logo{
+    width: 5rem;
+}
+#mainHeader{
+    background: url(coffee_horizontal.jpg);
+    height: 90vh; /*misura relativa */
+    margin-bottom: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+   
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .bg-grey {
+    background-color: #080808;
+    }
+    
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+
+   
+    }
+
+    .border border-purple{
+       
+        border-color: solid orange;
+       
+    }
+
+    #hero{
+        height: 90vh; /*misura relativa */
+        margin-bottom: 2rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: left; 
+    }
+
+    
+    .callToAction h1{
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: aliceblue;
+    }
+    .callToAction{
+        width: 50%;
+    }
+    .button {
+       
+        border: 1px solid rgb(194, 190, 190); ;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+       
+        border-radius: 15px;
+      }
+
+      .containerBut{
+          text-align: left;
+          padding-top: 9rem;
+         
+      }
+
+      .containerRight{
+        text-align: right;
+        padding-top: 9rem;
+    }
+
+      /*footer*/
+#mainFooter{
+   
+    color: bisque;
+    padding-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+.containerFot {
+    display: flex;
+    justify-content: space-between;/*funziona sul main axis(X-orizzontale)*/
+    align-items: center;/*allinea sull'asse incrociato (Y)*/
+    font-size: small;
+    height: 100px;
+    
+}
+
+      /* .box1 {
+          color: antiquewhite;
+        align-items: flex-start;
+        
+     }
+     .box2 {
+        align-items:flex-end;
+         
+     } */
+     .item {
+        width: 20%;
+    }
+     
+      
